@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Static\Scripts\**" />
+      <Content Remove="Static\Scripts\**" />
+      <EmbeddedResource Remove="Static\Scripts\**" />
+      <None Remove="Static\Scripts\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="bootstrap" Version="5.3.0" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,106 @@
+﻿header, footer, body, .video-container {
+    background-color: lavender;
+}
+
+body {
+    padding-left: 11%;
+}
+
+.video-container {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.navbar p {
+    color: white;
+    padding-left: 15%;
+}
+
+.navbar p:hover {
+    color: palevioletred;
+}
+
+header {
+    color: #274952;
+    padding-left: 1%;
+    padding-top: 1.2%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-size: medium;
+    color: dimgrey;
+    line-height: 10%;
+    padding-left: 1%;
+}
+
+aside {
+    height: 100%; /* Высота в полный размер. Этот параметр можно убрать, если вы хотите выставлять высоту автоматически */
+    width: 10%;
+    position: absolute; /* Фиксированная позиция сайд-бара. Так он будет оставаться на месте при скроллинге */
+    z-index: 1; /* Сайд-бар будет поверх остальных элементов */
+    top: 0; /* Сайдбар будет в самой верхней части страницы */
+    left: 0;
+    background-color: #274952; /* Черный цвет фона (задан в виде кода) */
+    overflow-x: hidden; /* Отключаем горизонтальную прокрутку */
+    padding-top: 2%;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+}
+
+.video-title {
+    color: #274952;
+}
+
+input p {
+    border: 1px solid #274952;
+}
+
+input p:focus {
+        border: 2px #274952;
+    }
+
+.search {
+    font-size: 15px;
+    font-weight: bold;
+    color: #274952;
+    padding-left: 1%;
+}
+
+header, footer, aside, body, .navbar, .video-container {
+    font-family: "Helvetica 65 Medium", sans-serif;
+}
+
+/*
+.block {
+    border: 2px solid black;
+    background-color: azure;
+    padding: 10px;
+}*/
+
+.review-container, .review-button {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.review-container, .review-button {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.review-text {
+    display: block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
