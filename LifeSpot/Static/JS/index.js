@@ -6,7 +6,6 @@ setTimeout(() =>
     alert("Нравится LifeSpot? " + '\n' + "Подпишитесь на наш Instagram @lifespot999!"),
     30000);
 
-
 /*
 * Сохранение данных сессии сразу при заходе пользователя на страницу
 *
@@ -16,7 +15,6 @@ let session = {
     'userAgent': window.navigator.userAgent,
     'userAge': prompt("Пожалуйста, введите ваш возраст?")
 }
-
 
 /*
 * Сохранение данных сессии сразу при заходе пользователя на страницу
@@ -54,8 +52,6 @@ function handleSession(logger, checker) {
     logger()
 }
 
-
-
 /*
 * Проверка возраста пользователя
 *
@@ -74,7 +70,6 @@ let checker = function (newVisit) {
     }
 }
 
-
 /*
 * Вывод данных сессии в консоль
 *
@@ -84,8 +79,6 @@ let logger = function () {
     console.log('Даныне клиента: ' + window.sessionStorage.getItem("userAgent"))
     console.log('Возраст пользователя: ' + window.sessionStorage.getItem("userAge"))
 }
-
-
 
 /*
 * Функция для фильтрации контента.
@@ -104,5 +97,7 @@ function filterContent() {
         }
     }
 }
+
+
 
            
